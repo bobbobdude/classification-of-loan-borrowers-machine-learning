@@ -1,1 +1,3 @@
-# CSM010_AML_Assignment
+# Applied Machine Learning - Figuring out the risk of loans
+
+In my project, I focused on using machine learning to classify borrowers as good or bad risks. I began by handling missing values using the mode and converting categorical data into numerical form. After normalizing skewed features, I split the data and evaluated various models using K-fold cross-validation. I found that Decision Tree and Random Forest classifiers performed best. To improve my models, I adjusted feature selection, normalized post-RFE, and oversampled the minority class to reduce bias, balancing the trade-off between accuracy and computational expense effectively.
